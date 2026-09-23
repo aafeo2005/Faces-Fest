@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>68 Aniversario FACES ULA - FACES FEST 2000's</title>
+    
+    <!-- Carga de Tailwind CSS para los estilos modernos y responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Carga de fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Fondo con un sutil gradiente gris/azulado para resaltar las imágenes */
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+        }
+        
+        .img-hover-effect {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .img-hover-effect:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="text-gray-800 min-h-screen flex flex-col">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo Oficial de la Facultad -->
+            <img src="Captura de pantalla 2026-09-23 091134.png" alt="Logo Ciencias Económicas y Sociales ULA" class="h-16 md:h-20 object-contain">
+            <nav class="hidden md:flex space-x-8 font-semibold text-blue-900">
+                <a href="#aniversario" class="hover:text-blue-600 transition-colors">Aniversario</a>
+                <a href="#fest" class="hover:text-pink-600 transition-colors">FACES Fest</a>
+                <a href="#horarios" class="hover:text-blue-600 transition-colors">Aulas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section id="aniversario" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+                <!-- Insignia del 68 Aniversario -->
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="propuesta 3D (1).jpg" alt="Insignia 68 Aniversario FACES ULA 1958-2026" class="w-64 h-64 md:w-96 md:h-96 object-contain rounded-full shadow-2xl img-hover-effect">
+                </div>
+                
+                <!-- Textos de introducción -->
+                <div class="w-full md:w-1/2 text-center md:text-left space-y-6">
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight">
+                        <span class="block text-[#8b1c31]">68 Años</span> 
+                        Formando Futuro
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 max-w-2xl">
+                        Celebramos un nuevo hito en la historia de la Facultad de Ciencias Económicas y Sociales (FACES) de la gloriosa Universidad de Los Andes. Únete a la conmemoración y sé parte de nuestra historia.
+                    </p>
+                    <div class="pt-4">
+                        <a href="#fest" class="inline-block bg-[#8b1c31] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-red-900 transition-colors">
+                            Descubre el Evento
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fest" class="bg-gray-900 text-white py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-4 uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+                    FACES Fest 2000's
+                </h2>
+                <p class="text-gray-400 mb-12 text-lg">Prepárate para viajar en el tiempo. Elige tu estilo y vive la mejor experiencia Y2K.</p>
+                
+                <!-- Galería / Layout de los pósters del evento -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 max-w-5xl mx-auto">
+                    
+                    <!-- Póster 1 (Estilo Pop/Femenino) -->
+                    <div class="flex flex-col items-center bg-gray-800 p-6 rounded-2xl shadow-[0_0_40px_rgba(236,72,153,0.3)] img-hover-effect">
+                        <div class="w-full aspect-[1/2] relative overflow-hidden rounded-xl mb-6">
+                            <img src="Captura de pantalla 2026-09-23 091534.png" alt="Póster FACES Fest 2000s Pop" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-2xl font-bold text-pink-400 font-serif">So Fetch Edition</h3>
+                        <p class="text-sm text-gray-300 mt-2">Revive la era del pop, los brillos, los teléfonos con tapa y el glamour de los 2000s.</p>
+                    </div>
+
+                    <!-- Póster 2 (Estilo Hip Hop/Urbano) -->
+                    <div class="flex flex-col items-center bg-gray-800 p-6 rounded-2xl shadow-[0_0_40px_rgba(59,130,246,0.3)] img-hover-effect">
+                        <div class="w-full aspect-[1/2] relative overflow-hidden rounded-xl mb-6 bg-black">
+                            <img src="Captura de pantalla 2026-09-23 091605.png" alt="Póster FACES Fest 2000s Urbano" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-2xl font-bold text-blue-400 font-serif">Da Club Edition</h3>
+                        <p class="text-sm text-gray-300 mt-2">Bling bling, hip hop, r&b y la mejor vibra urbana de principios de milenio.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="horarios" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <div class="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-6">Ubicación y Logística</h2>
+                    <p class="text-gray-600 mb-8 text-lg">
+                        Mantente informado sobre los espacios donde se llevarán a cabo las actividades académicas y recreativas del aniversario. No te pierdas ninguna de nuestras charlas y sorpresas.
+                    </p>
+                    <div class="bg-blue-50 border-l-4 border-blue-900 p-4 rounded-r-lg">
+                        <p class="text-blue-800 font-semibold">¡Consulta las carteleras oficiales diariamente durante la semana aniversario!</p>
+                    </div>
+                </div>
+                <!-- Imagen de "En qué aula nos toca hoy" -->
+                <div class="w-full md:w-1/2 bg-gray-900 flex items-center justify-center p-8">
+                    <img src="1003118612.jpg" alt="Gráfico: ¿En qué aula nos toca hoy?" class="max-w-full h-auto rounded-lg shadow-lg img-hover-effect max-h-96 object-contain">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-100 text-gray-500 py-8 text-center border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="font-semibold text-gray-600 mb-2">Universidad de Los Andes - Mérida, Venezuela</p>
+            <p>&copy; 2026 Facultad de Ciencias Económicas y Sociales (FACES). Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
